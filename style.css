@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plain Light';
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #0b0b0b */
+.loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #0b0b0b ;
+    padding: 25vh 10vw;
+}
+.line{
+    /* background-color: red; */
+    line-height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+.line h1{
+    font-size: 6.5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+.line-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+   
+}
+.line-part1 h5,
+.line-part1 h6{
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: 'silk serif';
+}
+.line-part1 h5{
+    /* background-color: red; */
+    width: 5vw;
+    text-align: right;
+}
+.line h2{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: 0;
+    /* animation-name: anime; */
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime {
+    0%{
+        font-family: 'plain light';
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 1;
+    }
+    48%{
+        font-family: 'plain light';
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 0;
+
+    }
+    /* 50 to 100% */
+    50%{
+        font-family: 'silk serif';
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 500;
+        color: transparent;
+        opacity: 1;
+
+    }
+    100%{
+        font-family: 'silk serif';
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 500;
+        color: transparent;
+        opacity: 0;
+
+    }
+}
+
+
+
+
+
+
+.main{
+    position: relative;
+    background-color: #030303;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+}

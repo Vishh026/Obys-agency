@@ -12,6 +12,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: "Plain Light";
     src: url(./fonts/plain-regular-webfont.ttf);
@@ -742,6 +749,7 @@ html,body{
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    
 }
 .foot .underline{
     height: 1px;
@@ -766,8 +774,12 @@ html,body{
 }
 .footer-text{
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
-.footer h2{
+
+.footer-text h2{
     font-size: 8vw;
     text-transform: uppercase;
     position: absolute;
@@ -779,7 +791,7 @@ html,body{
     background-color: red;
 
 }
-.footer h2 span{
+.footer-text h2 span{
     font-family: "silk serif";
     opacity: 0;
     -webkit-text-stroke:  1px #fff;

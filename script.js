@@ -224,7 +224,7 @@ loadingAnimation();
 locomotiveAnimation();
 sheryAnimation();
 flagAnimation();
-// footerAnimation();
+footerAnimation();
 
 
 

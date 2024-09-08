@@ -56,14 +56,14 @@ tl.from(".line-part1,.line h2",{
         // grow = 100
         h5timer.innerHTML = grow
     }
-    }, 30);
+    }, 29);
 }
 })
 tl.to(".loader",{
     //loader gayab
     opacity:0,
     duration:0.2,
-    delay:2
+    delay:2.6
 })
 tl.from(".page1",{
     y:1600,

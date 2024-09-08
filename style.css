@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: "Plain Light";
     src: url(./fonts/plain-regular-webfont.ttf);
@@ -784,6 +791,7 @@ html,body{
     font-size: 1.1vw;
     margin-bottom: 1.5vw;
     font-weight: 400;
+    text-transform: capitalize;
 }
 .box1{
     width: 20%;
@@ -792,6 +800,8 @@ html,body{
     font-size: 1.6vw;
     /* margin: 0.2vh 0; */
     font-weight: 500;
+    text-transform: capitalize;
+
 }
 .foot-div{
     height: -webkit-fit-content;

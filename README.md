@@ -45,7 +45,7 @@ To run the project locally, follow these steps:
 2. **🔧 Navigate to the project directory**:
 	 ```bash
   	 cd Obys-agency
-3.**🌐 Open the project in your browser**:
+3.🌐 Open the project in your browser**:
 	-If it's a static project, simply open index.html in your browser.
     -If using any framework or build tools, make sure to install dependencies and start the 
      server (e.g., for React).
@@ -58,9 +58,9 @@ Contributions are welcome! To contribute:
 2.🔨 Create a new branch for your feature/bugfix.
 3.📤 Submit a pull request, and describe your changes in detail.
 
-##📄 License
+📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##🌍 Live Demo
+🌍 Live Demo
 Check out the live version here: Obys Agency Website -(https://vishh026.github.io/Obys-agency/)!
 

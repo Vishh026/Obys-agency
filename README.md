@@ -45,13 +45,14 @@ To run the project locally, follow these steps:
 2. **🔧 Navigate to the project directory**:
 	 ```bash
   	 cd Obys-agency
-3.🌐 Open the project in your browser**:
+3.🌐 Open the project in your browser:
 	-If it's a static project, simply open index.html in your browser.
     -If using any framework or build tools, make sure to install dependencies and start the 
      server (e.g., for React).
 ---
                                 
 ##🤝 Contributing
+
 Contributions are welcome! To contribute:
 
 1.🍴 Fork the repository.

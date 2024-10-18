@@ -51,13 +51,15 @@ To run the project locally, follow these steps:
      server (e.g., for React).
 ---
                                 
-##🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome! To contribute:
 
 1.🍴 Fork the repository.
 2.🔨 Create a new branch for your feature/bugfix.
 3.📤 Submit a pull request, and describe your changes in detail.
+
+---
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
